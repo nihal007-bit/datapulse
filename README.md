@@ -2,6 +2,16 @@
 
 A full-stack personal finance analytics platform. Upload transaction CSVs and get categorized spending breakdowns, a next-month expense forecast, and an overspend-risk classifier — combining a React frontend, a FastAPI backend, PostgreSQL, and scikit-learn ML models.
 
+## Screenshots
+
+| Dashboard | Transactions |
+| --- | --- |
+| ![Dashboard](screenshots/dashboard.png) | ![Transactions](screenshots/transactions.png) |
+
+| Insights | Upload |
+| --- | --- |
+| ![Insights](screenshots/insights.png) | ![Upload](screenshots/upload.png) |
+
 ## Stack
 
 - **Frontend:** React + Vite, Chart.js
