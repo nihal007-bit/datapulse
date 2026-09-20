@@ -12,6 +12,31 @@ A full-stack personal finance analytics platform. Upload transaction CSVs and ge
 | --- | --- |
 | ![Insights](screenshots/insights.png) | ![Upload](screenshots/upload.png) |
 
+## Features
+
+**Dashboard**
+- Stat cards: this month's spending (with month-over-month % change), next-month forecast, overspend risk label, and count of flagged anomalies
+- Spending trend chart: monthly expense history with the forecast plotted as a dashed extension
+- Spending-by-category doughnut chart
+- Budgets panel: set a monthly limit per category and track progress with a colored bar (green/amber/red)
+- Flagged anomalies list: unusual transactions relative to their category's normal range
+
+**Transactions**
+- Full transaction table with pagination
+- Search by category and filter by type (expense/income)
+- Sortable columns (date, category, amount)
+- Inline editing of a transaction's category and amount
+- Delete individual transactions
+
+**Insights**
+- Category spending over time (top categories by total spend, with the rest grouped into "Other")
+- Spending by day of week, to spot weekday/weekend patterns
+
+**Upload**
+- Upload an expenses CSV and an income CSV to populate the database
+- CSV format guidance (required vs. optional columns)
+- "Danger zone": clear all stored transactions to start fresh with a new dataset
+
 ## Stack
 
 - **Frontend:** React + Vite, Chart.js
