@@ -14,7 +14,7 @@ A full-stack personal finance analytics platform. Upload transaction CSVs and ge
 
 ## Features
 
-### 📊 Dashboard
+###  Dashboard
 The at-a-glance view of your finances.
 - **Live stat cards** — current month's spend with a month-over-month % change indicator, next month's forecasted spend, an overspend-risk label, and a running count of flagged anomalies
 - **Spending trend chart** — monthly expense history with the ML forecast rendered as a dashed continuation of the line
@@ -22,19 +22,19 @@ The at-a-glance view of your finances.
 - **Budgets** — set a monthly limit per category and track progress with a color-coded bar that shifts from green to amber to red as you approach the limit
 - **Anomaly feed** — a running list of transactions that broke from their category's usual pattern
 
-### 📋 Transactions
+###  Transactions
 The full transaction ledger, built for actually working with your data.
 - Paginated table of every transaction, sortable by date, category, or amount
 - Live search by category and filter by expense/income
 - Inline editing — fix a miscategorized transaction or a typo'd amount without leaving the page
 - One-click delete per row
 
-### 🔎 Insights
+###  Insights
 Where the deeper patterns live.
 - **Category trends over time** — a line chart tracking your top spending categories month by month, with smaller categories rolled into "Other" to keep it readable
 - **Day-of-week breakdown** — a bar chart surfacing which days of the week you tend to spend the most
 
-### ⬆️ Upload
+###  Upload
 The on-ramp for your data.
 - Drop in an expenses CSV and an income CSV to populate everything above
 - Inline guidance on the expected CSV schema (required vs. optional columns)
