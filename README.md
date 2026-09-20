@@ -8,7 +8,6 @@ A full-stack personal finance analytics platform. Upload transaction CSVs and ge
 - **Backend:** FastAPI, Pandas
 - **Database:** PostgreSQL (SQLAlchemy ORM)
 - **ML:** scikit-learn (linear regression forecast, logistic regression overspend-risk classifier)
-- **Deployment:** Docker Compose
 
 ## Data
 
@@ -21,16 +20,7 @@ cd backend
 python scripts/generate_sample_data.py
 ```
 
-## Running locally with Docker
-
-```bash
-docker compose up --build
-```
-
-- Backend: http://localhost:8000 (docs at `/docs`)
-- Frontend: http://localhost:5173
-
-## Running without Docker
+## Running locally
 
 **Backend** (requires a local or hosted PostgreSQL instance):
 
